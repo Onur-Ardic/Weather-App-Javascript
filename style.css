@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  background: url(bg.png);
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.header {
+  padding: 50px 20px 30px 20px;
+}
+
+.header h3 {
+  font-size: 35px;
+  color: #fbb034;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.header input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #fbb834;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+}
+.app .city {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.app .temp {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.content .desc {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.content .minmax {
+  font-size: 25px;
+}
