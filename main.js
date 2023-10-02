@@ -31,7 +31,7 @@ const getResult = (cityName) => {
 //addUİ
 
 const displayResult = (result) => {
-  console.log(result);
+ // console.log(result);
   let city = document.querySelector(".city");
   city.innerText = `${result.name}, ${result.sys.country}`;
 
